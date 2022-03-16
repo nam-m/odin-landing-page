@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header {
@@ -10,7 +11,7 @@ body {
     background-color: #1F2937;
     padding-left: 16px;
     padding-right: 16px;
-    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }
 
 .header-top {
@@ -25,8 +26,7 @@ body {
 }
 
 .header-bot img {
-    width: 30px;
-    height: 90px;
+    max-width: 75%;
     border-radius: 5px;
     flex: 1;
     padding-bottom: 60px;
@@ -39,13 +39,19 @@ body {
     flex: 1;
 }
 
+.main-text {
+    font-size: 32px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
 .header-bot-left .secondary-text {
     color: #E5E7EB;
-    font-weight: lighter;
+    font-weight: 300;
     font-size: 12px;
 }
 
-.header-bot-left button {
+button {
     font-size: 12px;
     font-weight: 600;
     background-color: #3882F6;
@@ -54,8 +60,33 @@ body {
     border-radius: 5px;
     width: 72px;
     padding: 1%;
-    /* transition: all 0.3s ease 0s; */
-    cursor: pointer; /* Allow cursor upon hovering over the button */
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-info {
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.content .quote {
+    font-style: italic;
+}
+
+.container img {
+    width: 100px;
+    height: auto;
+}
+.call-to-action-info button {
+
 }
 
 ul {
@@ -70,8 +101,3 @@ a {
     text-decoration: none;
 }
 
-.main-text {
-    font-size: 32px;
-    font-weight: 900;
-    color: #F9FAF8;
-}
