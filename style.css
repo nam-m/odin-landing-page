@@ -77,17 +77,47 @@ button {
     margin-bottom: 24px;
 }
 
-.content .quote {
-    font-style: italic;
+em.quote {
+    background-color: #E5E7EB;
+}
+
+span.quotemaster {
+    font-weight: 500;
+    text-align: right;
 }
 
 .container img {
     width: 100px;
     height: auto;
 }
-.call-to-action-info button {
 
+.call-to-action-info {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: space-around;
+    margin: 16px;
+    color: #F9FAF8;
+    border-radius: 5%;
 }
+
+.call-to-action-info button {
+    border-color: #F9FAF8;
+    border-style: dotted;
+}
+
+span.sign-up {
+    font-weight: 300;
+    font-size: small;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    font-size: small;
+    padding: 20px;
+}
+
 
 ul {
     list-style: none;
