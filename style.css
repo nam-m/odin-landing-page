@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    flex: 1;
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
@@ -12,24 +13,27 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding: 0 48px 48px;
     font-weight: 700;
 }
 
 .header-top {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 24px;
 }
 
 .header-bot {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    column-gap: 8px;
 }
 
 .header-bot-right {
-    max-width: 75%;
+    max-width: 60%;
+    height: auto;
     border-radius: 10px;
     flex: 1;
 }
@@ -45,6 +49,7 @@ h1.main-text {
     /* font-size: 32px; */
     font-weight: 900;
     color: #F9FAF8;
+    margin-bottom: 0;
 }
 
 .header-bot-left .secondary-text {
@@ -73,18 +78,21 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 36px;
 }
 
-h2.content-info {
+/* ===================================================
+   Images */
+
+.content-info {
     font-weight: 700;
     /* font-size: 18px; */
-    margin-top: 24px;
-    margin-bottom: 24px;
 }
 .container {
     display: flex;
     justify-content: space-around;
     column-gap: 10px;
+    flex-wrap: wrap;
 }
 
 .frame {
@@ -102,8 +110,8 @@ h2.content-info {
     float: left;
 }
 /* ===================================================
-   Quote
-   =================================================== */
+   Quote */
+
 .quote {
     margin-top: 20px;
     background-color: #E5E7EB;
@@ -124,8 +132,7 @@ span.quotemaster {
     text-align: right;
 }
 /* ===================================================
-   Call to action
-   =================================================== */
+   Call to action */
 
 .call-to-action-info {
     display: flex;
@@ -146,8 +153,7 @@ span.sign-up {
     font-size: small;
 }
 /* ================================================
-   Footer
-   ================================================ */
+   Footer */
 
 .footer {
     background-color: #1F2937;
