@@ -5,6 +5,9 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* ==================================================
+   Header 
+   ================================================== */
 .header {
     display: flex;
     flex-direction: column;
@@ -63,6 +66,9 @@ button {
     transition: all 0.3s ease 0s;
     cursor: pointer;
 }
+/* ==================================================
+   Content
+   ================================================== */
 
 .content{
     display: flex;
@@ -93,22 +99,31 @@ h2.content-info {
     border-radius: 10px;
     border: 2px solid #3882F6;
 }
-
+/* ===================================================
+   Quote
+   =================================================== */
 .quote {
     margin-top: 20px;
-    left: 0;
-    width: 100%;
-    text-align: center;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    /* width: fit-content; */
+    /* text-align: ; */
+    padding: 32px 48px;
 }
 
-em.quote-line {
-    background-color: #E5E7EB;
+span.quote-line {
+    font-weight: 300;
+    font-style: italic;
 }
 
 span.quotemaster {
     font-weight: 500;
     text-align: right;
 }
+/* ===================================================
+   Call to action
+   =================================================== */
 
 .call-to-action-info {
     display: flex;
@@ -128,7 +143,10 @@ span.sign-up {
     font-weight: 300;
     font-size: small;
 }
-
+/* ================================================
+   Footer
+   ================================================ */
+   
 .footer {
     background-color: #1F2937;
     color: #F9FAF8;
@@ -136,7 +154,6 @@ span.sign-up {
     font-size: 8px;
     padding: 20px;
 }
-
 
 ul {
     list-style: none;
