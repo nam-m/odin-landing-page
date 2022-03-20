@@ -91,7 +91,7 @@ button {
 .container {
     display: flex;
     justify-content: space-around;
-    column-gap: 10px;
+    gap: 8px;
     flex-wrap: wrap;
 }
 
@@ -105,9 +105,15 @@ button {
 .frame img {
     width: 120px;
     height: 120px;
-    /* border-radius: 10px; */
     object-fit: cover;
     float: left;
+}
+
+.caption {
+    text-align: center;
+    font-weight: 300;
+    font-size: 12px;
+    margin-top: 4px;
 }
 /* ===================================================
    Quote */
