@@ -44,7 +44,7 @@ a {
     column-gap: 8px;
 }
 
-.header-bot-right {
+img.header-bot-right{
     max-width: 60%;
     height: auto;
     border-radius: 4px;
@@ -58,7 +58,7 @@ a {
     flex: 1;
 }
 
-h1.main-text {
+.main-text {
     /* font-size: 32px; */
     font-weight: 900;
     color: #F9FAF8;
@@ -74,7 +74,7 @@ h1.main-text {
 button {
     font-size: 12px;
     font-weight: 600;
-    background-color: #3882F6;
+    background-color: #188404;
     color: #E5E7EB;
     border: 0;
     border-radius: 4px;
@@ -111,7 +111,7 @@ button {
 .frame {
     border-width: 2px;
     border-radius: 10px;
-    border: 2px solid #3882F6;
+    border: 2px solid #188404;
     overflow: hidden;
 }
 
@@ -154,7 +154,7 @@ span.quotemaster {
 .call-to-action-info {
     display: flex;
     flex-wrap: wrap;
-    background-color: #3882F6;
+    background-color: #188404;
     justify-content: space-around;
     margin: 16px;
     color: #F9FAF8;
@@ -164,7 +164,7 @@ span.quotemaster {
 }
 
 button.sign-up-bot {
-    background-color: #3882F6;
+    background-color: #188404;
     border: 1px solid #F9FAF8;
 }
 
