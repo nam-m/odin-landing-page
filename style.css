@@ -133,6 +133,8 @@ button {
 
 .quote {
     margin-top: 20px;
+    width: 100%;
+    text-align: center;
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
@@ -146,7 +148,6 @@ span.quote-line {
 
 span.quotemaster {
     font-weight: 500;
-    text-align: right;
 }
 /* Call to action
    =================================================== */
