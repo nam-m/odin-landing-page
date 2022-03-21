@@ -12,6 +12,7 @@ body {
 .header {
     display: flex;
     flex-direction: column;
+    gap: 24px;
     background-color: #1F2937;
     padding: 0 48px 48px;
     font-weight: 700;
@@ -21,7 +22,19 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 24px;
+    /* margin-bottom: 24px; */
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 8px;
+    font-size: 12px;
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
 }
 
 .header-bot {
@@ -34,7 +47,7 @@ body {
 .header-bot-right {
     max-width: 60%;
     height: auto;
-    border-radius: 10px;
+    border-radius: 4px;
     flex: 1;
 }
 
@@ -49,7 +62,7 @@ h1.main-text {
     /* font-size: 32px; */
     font-weight: 900;
     color: #F9FAF8;
-    margin-bottom: 0;
+    margin: 0;
 }
 
 .header-bot-left .secondary-text {
@@ -64,9 +77,9 @@ button {
     background-color: #3882F6;
     color: #E5E7EB;
     border: 0;
-    border-radius: 5px;
+    border-radius: 4px;
     width: 72px;
-    padding: 1%;
+    padding: 6px 8px;
     transition: all 0.3s ease 0s;
     cursor: pointer;
 }
@@ -81,8 +94,8 @@ button {
     padding-bottom: 36px;
 }
 
-/* ===================================================
-   Images */
+/* Images
+   =================================================== */
 
 .content-info {
     font-weight: 700;
@@ -115,16 +128,14 @@ button {
     font-size: 12px;
     margin-top: 4px;
 }
-/* ===================================================
-   Quote */
+/* Quote
+   =================================================== */
 
 .quote {
     margin-top: 20px;
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    /* width: fit-content; */
-    /* text-align: ; */
     padding: 32px 48px;
 }
 
@@ -137,29 +148,33 @@ span.quotemaster {
     font-weight: 500;
     text-align: right;
 }
-/* ===================================================
-   Call to action */
+/* Call to action
+   =================================================== */
 
 .call-to-action-info {
     display: flex;
+    flex-wrap: wrap;
     background-color: #3882F6;
     justify-content: space-around;
     margin: 16px;
     color: #F9FAF8;
-    border-radius: 5%;
+    border-radius: 4px;
+    padding: 24px 48px;
+    gap: 24px;
 }
 
-.call-to-action-info button {
-    border-color: #F9FAF8;
-    border-style: dotted;
+button.sign-up-bot {
+    background-color: #3882F6;
+    border: 1px solid #F9FAF8;
 }
 
-span.sign-up {
+.call-to-action-info .sign-up {
     font-weight: 300;
     font-size: small;
 }
-/* ================================================
-   Footer */
+/* ==================================================
+   Footer
+   ================================================== */
 
 .footer {
     background-color: #1F2937;
@@ -168,16 +183,3 @@ span.sign-up {
     font-size: 8px;
     padding: 20px;
 }
-
-ul {
-    list-style: none;
-    display: flex;
-    gap: 8px;
-    font-size: 12px;
-}
-
-a {
-    color: #E5E7EB;
-    text-decoration: none;
-}
-
