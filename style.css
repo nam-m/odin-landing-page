@@ -14,7 +14,7 @@ body {
     flex-direction: column;
     gap: 24px;
     background-color: #1F2937;
-    padding: 0 48px 48px;
+    padding: 0 96px 96px;
     font-weight: 700;
 }
 
@@ -22,14 +22,14 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* margin-bottom: 24px; */
+    margin-bottom: 48px;
 }
 
 ul {
     list-style: none;
     display: flex;
-    gap: 8px;
-    font-size: 12px;
+    gap: 24px;
+    font-size: 18px;
 }
 
 a {
@@ -47,7 +47,7 @@ a {
 img.header-bot-right{
     max-width: 60%;
     height: auto;
-    border-radius: 4px;
+    border-radius: 8px;
     flex: 1;
 }
 
@@ -59,27 +59,28 @@ img.header-bot-right{
 }
 
 .main-text {
-    /* font-size: 32px; */
+    font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
-    margin: 0;
+    margin: 8px;
+    text-align: left;
 }
 
 .header-bot-left .secondary-text {
     color: #E5E7EB;
     font-weight: 300;
-    font-size: 12px;
+    font-size: 18px;
 }
 
 button {
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 600;
     background-color: #188404;
     color: #E5E7EB;
     border: 0;
-    border-radius: 4px;
-    width: 72px;
-    padding: 6px 8px;
+    border-radius: 8px;
+    width: 144px;
+    padding: 8px 8px;
     transition: all 0.3s ease 0s;
     cursor: pointer;
 }
@@ -99,12 +100,14 @@ button {
 
 .content-info {
     font-weight: 700;
-    /* font-size: 18px; */
+    font-size: 48px;
+    margin: 48px 0;
 }
+
 .container {
     display: flex;
     justify-content: space-around;
-    gap: 8px;
+    gap: 48px;
     flex-wrap: wrap;
 }
 
@@ -116,8 +119,8 @@ button {
 }
 
 .frame img {
-    width: 120px;
-    height: 120px;
+    width: 256px;
+    height: 256px;
     object-fit: cover;
     float: left;
 }
@@ -125,15 +128,15 @@ button {
 .caption {
     text-align: center;
     font-weight: 300;
-    font-size: 12px;
-    margin-top: 4px;
+    font-size: 24px;
+    margin-top: 12px;
 }
 /* Quote
    =================================================== */
 
 .quote {
     margin-top: 20px;
-    width: 100%;
+    /* width: 100%; */
     text-align: center;
     background-color: #E5E7EB;
     display: flex;
@@ -142,11 +145,13 @@ button {
 }
 
 span.quote-line {
+    font-size: 36px;
     font-weight: 300;
     font-style: italic;
 }
 
 span.quotemaster {
+    font-size: 24px;
     font-weight: 500;
 }
 /* Call to action
@@ -160,8 +165,8 @@ span.quotemaster {
     margin: 16px;
     color: #F9FAF8;
     border-radius: 4px;
-    padding: 24px 48px;
-    gap: 24px;
+    padding: 24px 96px;
+    gap: 144px;
 }
 
 button.sign-up-bot {
@@ -169,9 +174,13 @@ button.sign-up-bot {
     border: 1px solid #F9FAF8;
 }
 
+.call-to-action-info {
+    font-size: 24px;
+}
+
 .call-to-action-info .sign-up {
     font-weight: 300;
-    font-size: small;
+    font-size: 18px;
 }
 /* ==================================================
    Footer
@@ -181,6 +190,6 @@ button.sign-up-bot {
     background-color: #1F2937;
     color: #F9FAF8;
     text-align: center;
-    font-size: 8px;
+    font-size: 18px;
     padding: 20px;
 }
