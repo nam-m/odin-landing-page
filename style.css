@@ -14,7 +14,7 @@ body {
     flex-direction: column;
     gap: 24px;
     background-color: #1F2937;
-    padding: 0 96px 96px;
+    padding: 0 200px 96px;
     font-weight: 700;
 }
 
@@ -45,7 +45,7 @@ a {
 }
 
 img.header-bot-right{
-    max-width: 60%;
+    max-width: 50%;
     height: auto;
     border-radius: 8px;
     flex: 1;
@@ -55,6 +55,7 @@ img.header-bot-right{
     display: flex;
     justify-content: flex-start;
     flex-flow: column;
+    gap: 36px;
     flex: 1;
 }
 
@@ -62,14 +63,13 @@ img.header-bot-right{
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
-    margin: 8px;
-    text-align: left;
 }
 
 .header-bot-left .secondary-text {
     color: #E5E7EB;
     font-weight: 300;
     font-size: 18px;
+    line-height: 2em;
 }
 
 button {
@@ -91,8 +91,9 @@ button {
 .content{
     display: flex;
     flex-direction: column;
+    gap: 48px;
     align-items: center;
-    padding-bottom: 36px;
+    padding-bottom: 48px;
 }
 
 /* Images
@@ -101,7 +102,7 @@ button {
 .content-info {
     font-weight: 700;
     font-size: 48px;
-    margin: 48px 0;
+    margin-top: 36px;
 }
 
 .container {
@@ -112,9 +113,8 @@ button {
 }
 
 .frame {
-    border-width: 2px;
     border-radius: 10px;
-    border: 2px solid #188404;
+    border: 4px solid #188404;
     overflow: hidden;
 }
 
@@ -135,13 +135,12 @@ button {
    =================================================== */
 
 .quote {
-    margin-top: 20px;
-    /* width: 100%; */
-    text-align: center;
+    margin-top: 36px;
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    padding: 32px 48px;
+    gap: 12px;
+    padding: 96px 144px;
 }
 
 span.quote-line {
@@ -153,6 +152,7 @@ span.quote-line {
 span.quotemaster {
     font-size: 24px;
     font-weight: 500;
+    text-align: end;
 }
 /* Call to action
    =================================================== */
@@ -164,9 +164,9 @@ span.quotemaster {
     justify-content: space-around;
     margin: 16px;
     color: #F9FAF8;
-    border-radius: 4px;
-    padding: 24px 96px;
-    gap: 144px;
+    border-radius: 8px;
+    padding: 48px 96px;
+    gap: 256px;
 }
 
 button.sign-up-bot {
@@ -191,5 +191,5 @@ button.sign-up-bot {
     color: #F9FAF8;
     text-align: center;
     font-size: 18px;
-    padding: 20px;
+    padding: 48px;
 }
